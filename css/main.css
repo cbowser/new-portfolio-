@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700');
+
+@import url('https://fonts.googleapis.com/css?family=Spectral:300,400,400i,700,800');
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900');
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:300,400,900');
+/*FONTS*/
+
+.lato {
+font-family: 'Lato', sans-serif;
+font-weight: 900;}
+
+.lato2 {
+font-family: 'Lato', sans-serif;
+font-weight: 400;}
+
+.latolight {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.spectrali {
+  font-family: 'Spectral', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+.spectral {
+  font-family: 'Spectral', serif;
+  font-weight: 300;
+}
+
+
+
+body {
+  font-family: 'Noto Serif JP', serif;
+  color: #202020;
+  font-weight: 400;
+}
+
+.texty {
+  font-size: 18px;
+  line-height: 1.7
+}
+
+
+.bgcolor {
+  background-color: #bec7cd;
+}
+
+
+/* BACKGROUND IMAGES - INDEX PAGE */
+
+.first {
+  background-image: url(/images/unknown-gif3.gif);
+  background-position: center;
+  background-size: contain;
+}
+
+
+.concept {
+
+  background-image: url(/images/sackler-01.png);
+  background-position: center;
+  background-size: contain;
+}
+
+.influence {
+  background-image: url(/images/influence-gif.gif);
+  background-position: center;
+  background-size: contain;
+}
+
+.questions {
+  background-image: url(/images/questions.png);
+  background-position: center;
+  background-size: contain;
+}
+
+.datacity {
+  background-image: url(/images/data2-01.png);
+  background-position: center;
+  background-size: contain;
+}
+
+.weather {
+  background-image: url(/images/lola-gif.gif);
+  background-position: center;
+  background-size: contain;
+}
+
+.subtract {
+  background-image: url(/images/ice3.png);
+  background-position: center;
+  background-size: contain;
+}
+
+.collection {
+  background-image: url(/images/collectionsgif.gif);
+  background-position: center;
+  background-size: contain;
+}
+
+.alphabet {
+  background-image: url(/images/alphabetgif.gif);
+  background-position: center;
+  background-size: contain;
+}
+
+.mfa {
+  background-image: url(/images/mfa-postcard.png);
+  background-position: center;
+  background-size: contain;
+}
+
+.dropshadow {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/* HOVER REVEAL */
+
+.revealing {
+  position: relative;
+}
+
+.typeover {
+display:none;
+}
+
+
+.revealing:hover .typeover {
+        display: block;
+        background-color:rgba(0,0,0,0.9);
+        height: 50vh;
+    }
+
+
+.absolute {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+img{
+	width:100%;
+	height:auto;
+  border-style: none;
+}
+
+.arrow {
+  width: 30px;
+}
