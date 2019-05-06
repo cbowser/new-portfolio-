@@ -1,64 +1,83 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700');
 
-@import url('https://fonts.googleapis.com/css?family=Spectral:300,400,400i,700,800');
+@import url("https://use.typekit.net/ujb8mcn.css");
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900');
-
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:300,400,900');
 /*FONTS*/
 
-.lato {
-font-family: 'Lato', sans-serif;
-font-weight: 900;}
 
-.lato2 {
-font-family: 'Lato', sans-serif;
-font-weight: 400;}
-
-.latolight {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
+.objthin {
+font-family: objektiv-mk2, sans-serif;
+font-weight: 300;
+font-style: normal;
 }
 
-.spectrali {
-  font-family: 'Spectral', serif;
+.obji {
+  font-family: objektiv-mk2, sans-serif;
   font-weight: 400;
   font-style: italic;
 }
 
-
-.spectral {
-  font-family: 'Spectral', serif;
-  font-weight: 300;
+.objr {
+  font-family: objektiv-mk2, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
+.objbold {
+  font-family: objektiv-mk2, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.objblack {
+  font-family: objektiv-mk2, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+.merrib {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+
+.smallcaps {
+  font-family: objektiv-mk2, sans-serif;
+  font-weight: 300;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+.navlinks {
+  font-family: objektiv-mk2, sans-serif;
+  font-weight: 400;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
 
 
 body {
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
   color: #202020;
-  font-weight: 400;
 }
+
 
 .texty {
   font-size: 18px;
-  line-height: 1.7
+  line-height: 1.8
 }
 
-
-.bgcolor {
-  background-color: #bec7cd;
-}
 
 
 /* BACKGROUND IMAGES - INDEX PAGE */
+
 
 .first {
   background-image: url(/images/unknown-gif3.gif);
   background-position: center;
   background-size: contain;
 }
-
 
 .concept {
 
@@ -74,7 +93,7 @@ body {
 }
 
 .questions {
-  background-image: url(/images/questions.png);
+  background-image: url(/images/extra.png);
   background-position: center;
   background-size: contain;
 }
@@ -92,7 +111,7 @@ body {
 }
 
 .subtract {
-  background-image: url(/images/ice3.png);
+  background-image: url(/images/subtract02.png);
   background-position: center;
   background-size: contain;
 }
@@ -110,44 +129,33 @@ body {
 }
 
 .mfa {
-  background-image: url(/images/mfa-postcard.png);
+  background-image: url(/images/mfa-orange.png);
   background-position: center;
   background-size: contain;
 }
 
-.dropshadow {
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+/*DROP SHADOW AND HOVER*/
+.dropshadow {box-shadow: 0px 0px 16px -2px rgba(0,0,0,0.2);}
+
+
+/*Color Overlay*/
+
+
+.blackwhite:hover {
+  background-color: red;
+  background-blend-mode: multiply;
 }
 
-
-
-/* HOVER REVEAL */
-
-.revealing {
-  position: relative;
+@media only screen and (max-width: 600px) {
+  .blackwhite:hover {
+    background-blend-mode: normal;
+  }
 }
 
-.typeover {
-display:none;
+.grayfilter {
+  filter: grayscale(100%);
 }
-
-
-.revealing:hover .typeover {
-        display: block;
-        background-color:rgba(0,0,0,0.9);
-        height: 50vh;
-    }
-
-
-.absolute {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-
-
-
 
 a {
   text-decoration: none;
@@ -155,14 +163,32 @@ a {
 }
 
 
+/*fun text over image scroll
+.section {
+  position: relative;
+}
+
+section div.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+}
+
+section h2 {
+  text-align: center;
+  padding: 40px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 10vh;
+}
+*/
+
 
 
 img{
 	width:100%;
 	height:auto;
   border-style: none;
-}
-
-.arrow {
-  width: 30px;
 }
