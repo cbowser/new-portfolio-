@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700');
-
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700');
 @import url("https://use.typekit.net/ujb8mcn.css");
 
 /*FONTS*/
@@ -41,6 +40,12 @@ font-style: normal;
   font-weight: 700;
 }
 
+.merrii {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
 .smallcaps {
   font-family: objektiv-mk2, sans-serif;
   font-weight: 300;
@@ -73,20 +78,20 @@ body {
 
 
 .first {
-  background-image: url(/images/unknown-gif3.gif);
+  background-image: url(/images/manual-cover.png);
   background-position: center;
   background-size: contain;
 }
 
 .concept {
 
-  background-image: url(/images/sackler-01.png);
+  background-image: url(/images/sackler-poster2-01.png);
   background-position: center;
   background-size: contain;
 }
 
 .influence {
-  background-image: url(/images/influence-gif.gif);
+  background-image: url(/images/catalog-gif2.gif);
   background-position: center;
   background-size: contain;
 }
@@ -98,7 +103,7 @@ body {
 }
 
 .datacity {
-  background-image: url(/images/data2-01.png);
+  background-image: url(/images/datamap3.png);
   background-position: center;
   background-size: contain;
 }
@@ -110,19 +115,19 @@ body {
 }
 
 .subtract {
-  background-image: url(/images/subtract02.png);
+  background-image: url(/images/subtract.gif);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .collection {
-  background-image: url(/images/collectionsgif.gif);
+  background-image: url(/images/collection-03.png);
   background-position: center;
   background-size: contain;
 }
 
 .alphabet {
-  background-image: url(/images/alphabetgif.gif);
+  background-image: url(/images/alphabet-gif2.gif);
   background-position: center;
   background-size: contain;
 }
@@ -133,16 +138,22 @@ body {
   background-size: contain;
 }
 
+.thesis {
+  background-image: url(/images/thesis-01.png);
+  background-position: center;
+  background-size: contain;
+}
+
 
 /*DROP SHADOW AND HOVER*/
 .dropshadow {box-shadow: 0px 0px 16px -2px rgba(0,0,0,0.2);}
 
 
-/*Color Overlay*/
+/*Color Overlay
 
 
 .blackwhite:hover {
-  background-color: red;
+  background-color: gray;
   background-blend-mode: multiply;
 }
 
@@ -152,13 +163,16 @@ body {
   }
   video {
     width: 300px;
-    height: 300px; 
+    height: 300px;
   }
-}
+}*/
+
+
 
 .grayfilter {
   filter: grayscale(100%);
 }
+
 
 a {
   text-decoration: none;
@@ -187,6 +201,7 @@ section h2 {
   top: 10vh;
 }
 */
+
 
 
 
