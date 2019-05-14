@@ -84,8 +84,7 @@ body {
 }
 
 .concept {
-
-  background-image: url(/images/sackler-poster2-01.png);
+  background-image: url(/images/sackler-poster.jpg);
   background-position: center;
   background-size: contain;
 }
@@ -93,11 +92,11 @@ body {
 .influence {
   background-image: url(/images/catalog-gif2.gif);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .questions {
-  background-image: url(/images/extra.png);
+  background-image: url(/images/questions-poster01.png);
   background-position: center;
   background-size: contain;
 }
@@ -105,7 +104,7 @@ body {
 .datacity {
   background-image: url(/images/datamap3.png);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .weather {
@@ -121,7 +120,7 @@ body {
 }
 
 .collection {
-  background-image: url(/images/collection-03.png);
+  background-image: url(/images/collection-01.png);
   background-position: center;
   background-size: contain;
 }
@@ -144,10 +143,39 @@ body {
   background-size: contain;
 }
 
+.serial {
+  background-image: url(/images/serial-01.png);
+  background-position: center;
+  background-size: contain;
+}
+
+
+.posters {
+  background-image: url(/images/poster-gifs.gif);
+  background-position: center;
+  background-size: contain;
+}
+
+
+.tender {
+  background-image: url(/images/tender-gif.gif);
+  background-position: center;
+  background-size: contain;
+}
+
+
+
 
 /*DROP SHADOW AND HOVER*/
 .dropshadow {box-shadow: 0px 0px 16px -2px rgba(0,0,0,0.2);}
 
+
+.lightdrop {box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);}
+
+
+.invert {
+  filter: invert(1);
+}
 
 
 
@@ -156,6 +184,10 @@ body {
   video {
     width: 300px;
     height: 300px;
+  }
+  iframe {
+    width:400px;
+    height:225px;
   }
 }
 
@@ -170,6 +202,10 @@ a {
   text-decoration: none;
   color: black;
 }
+
+
+
+
 
 
 /*fun text over image scroll
