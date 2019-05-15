@@ -108,7 +108,7 @@ body {
 }
 
 .weather {
-  background-image: url(/images/lola-gif.gif);
+  background-image: url(/images/lola-outfits.png);
   background-position: center;
   background-size: contain;
 }
@@ -208,7 +208,10 @@ a {
   color: black;
 }
 
-
+.alphabetborder {
+  border: 20px solid #e2856e;
+  box-sizing: border-box;
+}
 
 
 
