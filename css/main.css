@@ -108,7 +108,7 @@ body {
 }
 
 .weather {
-  background-image: url(/images/lola-outfits.png);
+  background-image: url(/images/lola-gif2.gif);
   background-position: center;
   background-size: contain;
 }
@@ -140,13 +140,13 @@ body {
 .thesis {
   background-image: url(/images/thesis-01.png);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .serial {
-  background-image: url(/images/serial-01.png);
+  background-image: url(/images/git-posters.png);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 
@@ -179,12 +179,24 @@ body {
 
 
 
+/*MEDIA QUERIES MEDIUM & SMALL*/
+
+@media only screen and (max-width: 1000px) {
+
+  iframe {
+    width: 650px;
+    height: 375px;
+  }
+  iframe.subtract {
+    width:400px;
+    height:400px;
+  }
+}
+
+
 
 @media only screen and (max-width: 600px) {
-  video {
-    width: 300px;
-    height: 300px;
-  }
+
   iframe {
     width:320px;
     height:180px;
@@ -195,6 +207,9 @@ body {
     height:300px;
   }
 }
+
+
+
 
 
 
@@ -216,27 +231,6 @@ a {
 
 
 
-/*fun text over image scroll
-.section {
-  position: relative;
-}
-
-section div.overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 60%;
-  height: 100%;
-}
-
-section h2 {
-  text-align: center;
-  padding: 40px;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 10vh;
-}
-*/
 
 
 
