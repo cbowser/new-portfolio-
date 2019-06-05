@@ -78,9 +78,9 @@ body {
 
 
 .first {
-  background-image: url(/images/manual-cover.png);
+  background-image: url(/images/unknown-page07.png);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .concept {
