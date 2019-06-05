@@ -72,7 +72,9 @@ body {
   line-height: 1.8
 }
 
-
+.totalpage {
+  min-height: 100vh;
+}
 
 /* BACKGROUND IMAGES - INDEX PAGE */
 
@@ -143,7 +145,7 @@ body {
   background-size: cover;
 }
 
-.serial {
+.git {
   background-image: url(/images/git-posters.png);
   background-position: center;
   background-size: cover;
