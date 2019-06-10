@@ -122,7 +122,7 @@ body {
 }
 
 .collection {
-  background-image: url(/images/collection-01.png);
+  background-image: url(/images/collection02.jpg);
   background-position: center;
   background-size: contain;
 }
@@ -160,7 +160,7 @@ body {
 
 
 .tender {
-  background-image: url(/images/tender-gif2.gif);
+  background-image: url(/images/tendergif2.gif);
   background-position: center;
   background-size: contain;
 }
