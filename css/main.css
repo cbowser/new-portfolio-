@@ -184,6 +184,10 @@ body {
   filter: invert(1);
 }
 
+.hide {
+  display: none;
+}
+
 
 
 /*MEDIA QUERIES MEDIUM & SMALL*/
@@ -216,6 +220,10 @@ body {
 
   .hidethis {
     display: none;
+  }
+
+  .hide {
+    display: block;
   }
 }
 
