@@ -170,6 +170,12 @@ body {
   background-size: contain;
 }
 
+.global {
+  background-image: url(/images/global-joy.png);
+  background-position: center;
+  background-size: cover;
+}
+
 
 
 
@@ -187,6 +193,8 @@ body {
 .hide {
   display: none;
 }
+
+
 
 
 
