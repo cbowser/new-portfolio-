@@ -109,13 +109,13 @@ body {
 }
 
 .datacity {
-  background-image: url(/images/data.jpg);
+  background-image: url(/images/datadata.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .weather {
-  background-image: url(/images/lola-sun.gif);
+  background-image: url(/images/lola-newgif.gif);
   background-position: center;
   background-size: contain;
 }
@@ -145,7 +145,7 @@ body {
 }
 
 .thesis {
-  background-image: url(/images/thesis-big.jpg);
+  background-image: url(/images/map.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -158,9 +158,9 @@ body {
 
 
 .posters {
-  background-image: url(/images/poster-gifs.gif);
-  background-position: center;
-  background-size: contain;
+  background-image: url(/images/robot-cover.jpg);
+  background-position: top;
+  background-size: cover;
 }
 
 
@@ -171,7 +171,7 @@ body {
 }
 
 .global {
-  background-image: url(/images/global-joy.png);
+  background-image: url(/images/globaljoy.gif);
   background-position: center;
   background-size: cover;
 }
