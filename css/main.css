@@ -2,7 +2,113 @@
 @import url("https://use.typekit.net/ujb8mcn.css");
 
 /*FONTS*/
+.keplerreg {
+font-family: kepler-std, serif;
+font-weight: 400;
+font-style: normal;
+}
 
+.keplerregi {
+font-family: kepler-std, serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.keplerregb {
+font-family: kepler-std, serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.keplerboldi {
+font-family: kepler-std, serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.keplerlighti {
+  font-family: kepler-std, serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.keplerstdi {
+font-family: kepler-std-display, serif;
+font-weight: 400;
+font-style: italic;
+}
+
+
+.keplerlight {
+font-family: kepler-std-display, serif;
+font-weight: 300;
+font-style: normal;
+}
+
+
+.keplermed {
+font-family: kepler-std-display, serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.kepler {
+font-family: kepler-std-display, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.keplersemi {
+
+font-family: kepler-std-display, serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.utopiareg {
+font-family: utopia-std, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+
+.utopiaregb {
+
+font-family: utopia-std, serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.utopiabold {
+  font-family: utopia-std-display, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.utopiaboldi {
+font-family: utopia-std-display, serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.utopiai {
+font-family: utopia-std-display, serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.utopia {
+font-family: utopia-std-display, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.utopiablack {
+font-family: utopia-std-headline, serif;
+font-weight: 400;
+font-style: normal;
+}
 
 .objthin {
 font-family: objektiv-mk2, sans-serif;
@@ -58,23 +164,33 @@ font-style: normal;
   text-transform: uppercase;
 }
 
+/*
 .navlinks {
   font-family: objektiv-mk2, sans-serif;
   font-weight: 400;
   letter-spacing: .05em;
   text-transform: uppercase;
-}
+}*/
 
 
 body {
-  font-family: 'Merriweather', serif;
-  font-weight: 300;
+  font-family: kepler-std-display, serif;
+  font-weight: 400;
   color: #202020;
+}
+
+.skills {
+  list-style-type: none;
+  columns: 2;
+}
+
+.connect {
+    list-style-type: none;
 }
 
 
 .texty {
-  line-height: 1.8
+  line-height: 1.4
 }
 
 .totalpage {
@@ -146,7 +262,7 @@ body {
 }
 
 .thesis {
-  background-image: url(/images/thesis-drew.jpg);
+  background-image: url(/images/thesis04-new.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -172,11 +288,17 @@ body {
 }
 
 .global {
-  background-image: url(/images/globaljoy.gif);
+  background-image: url(/images/global-gif2.gif);
   background-position: center;
   background-size: cover;
 }
 
+.ee {
+  background-image: url(/images/ee-index3.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 
 
