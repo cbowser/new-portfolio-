@@ -275,9 +275,10 @@ body {
 
 
 .posters {
-  background-image: url(/images/robot-cover.jpg);
+  background-image: url(/images/leo-new.jpg);
   background-position: top;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
