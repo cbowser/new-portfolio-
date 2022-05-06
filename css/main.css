@@ -199,6 +199,29 @@ body {
 
 /* BACKGROUND IMAGES - INDEX PAGE */
 
+.ercbrand {
+  background-image: url(/images/erc_brand.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.cecatalog {
+  background-image: url(/images/ce_cover3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.acute {
+  background-image: url(/images/acute_bizcard.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.invite {
+  background-image: url(/images/KDinvite2.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
 .first {
   background-image: url(/images/manual07.jpg);
@@ -289,7 +312,7 @@ body {
 }
 
 .global {
-  background-image: url(/images/global-gif2.gif);
+  background-image: url(/images/globaljoy.gif);
   background-position: center;
   background-size: cover;
 }
